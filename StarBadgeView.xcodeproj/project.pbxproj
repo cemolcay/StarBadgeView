@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20D11091A4D637800164F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D11081A4D637800164F5B /* AppDelegate.swift */; };
+		B20D110B1A4D637800164F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D110A1A4D637800164F5B /* ViewController.swift */; };
+		B20D110E1A4D637800164F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20D110C1A4D637800164F5B /* Main.storyboard */; };
+		B20D11101A4D637800164F5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20D110F1A4D637800164F5B /* Images.xcassets */; };
+		B20D11131A4D637800164F5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20D11111A4D637800164F5B /* LaunchScreen.xib */; };
+		B20D111F1A4D637800164F5B /* StarBadgeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D111E1A4D637800164F5B /* StarBadgeViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20D11191A4D637800164F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20D10FB1A4D637800164F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20D11021A4D637800164F5B;
+			remoteInfo = StarBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20D11031A4D637800164F5B /* StarBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D11071A4D637800164F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20D11081A4D637800164F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20D110A1A4D637800164F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B20D110D1A4D637800164F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20D110F1A4D637800164F5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B20D11121A4D637800164F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B20D11181A4D637800164F5B /* StarBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D111D1A4D637800164F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20D111E1A4D637800164F5B /* StarBadgeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBadgeViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20D11001A4D637800164F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D11151A4D637800164F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20D10FA1A4D637800164F5B = {
+			isa = PBXGroup;
+			children = (
+				B20D11051A4D637800164F5B /* StarBadgeView */,
+				B20D111B1A4D637800164F5B /* StarBadgeViewTests */,
+				B20D11041A4D637800164F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20D11041A4D637800164F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20D11031A4D637800164F5B /* StarBadgeView.app */,
+				B20D11181A4D637800164F5B /* StarBadgeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20D11051A4D637800164F5B /* StarBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				B20D11081A4D637800164F5B /* AppDelegate.swift */,
+				B20D110A1A4D637800164F5B /* ViewController.swift */,
+				B20D110C1A4D637800164F5B /* Main.storyboard */,
+				B20D110F1A4D637800164F5B /* Images.xcassets */,
+				B20D11111A4D637800164F5B /* LaunchScreen.xib */,
+				B20D11061A4D637800164F5B /* Supporting Files */,
+			);
+			path = StarBadgeView;
+			sourceTree = "<group>";
+		};
+		B20D11061A4D637800164F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20D11071A4D637800164F5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20D111B1A4D637800164F5B /* StarBadgeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20D111E1A4D637800164F5B /* StarBadgeViewTests.swift */,
+				B20D111C1A4D637800164F5B /* Supporting Files */,
+			);
+			path = StarBadgeViewTests;
+			sourceTree = "<group>";
+		};
+		B20D111C1A4D637800164F5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20D111D1A4D637800164F5B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20D11021A4D637800164F5B /* StarBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D11221A4D637800164F5B /* Build configuration list for PBXNativeTarget "StarBadgeView" */;
+			buildPhases = (
+				B20D10FF1A4D637800164F5B /* Sources */,
+				B20D11001A4D637800164F5B /* Frameworks */,
+				B20D11011A4D637800164F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarBadgeView;
+			productName = StarBadgeView;
+			productReference = B20D11031A4D637800164F5B /* StarBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20D11171A4D637800164F5B /* StarBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D11251A4D637800164F5B /* Build configuration list for PBXNativeTarget "StarBadgeViewTests" */;
+			buildPhases = (
+				B20D11141A4D637800164F5B /* Sources */,
+				B20D11151A4D637800164F5B /* Frameworks */,
+				B20D11161A4D637800164F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D111A1A4D637800164F5B /* PBXTargetDependency */,
+			);
+			name = StarBadgeViewTests;
+			productName = StarBadgeViewTests;
+			productReference = B20D11181A4D637800164F5B /* StarBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20D10FB1A4D637800164F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cem Olcay";
+				TargetAttributes = {
+					B20D11021A4D637800164F5B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B20D11171A4D637800164F5B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B20D11021A4D637800164F5B;
+					};
+				};
+			};
+			buildConfigurationList = B20D10FE1A4D637800164F5B /* Build configuration list for PBXProject "StarBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20D10FA1A4D637800164F5B;
+			productRefGroup = B20D11041A4D637800164F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20D11021A4D637800164F5B /* StarBadgeView */,
+				B20D11171A4D637800164F5B /* StarBadgeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20D11011A4D637800164F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D110E1A4D637800164F5B /* Main.storyboard in Resources */,
+				B20D11131A4D637800164F5B /* LaunchScreen.xib in Resources */,
+				B20D11101A4D637800164F5B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D11161A4D637800164F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20D10FF1A4D637800164F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D110B1A4D637800164F5B /* ViewController.swift in Sources */,
+				B20D11091A4D637800164F5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D11141A4D637800164F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D111F1A4D637800164F5B /* StarBadgeViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20D111A1A4D637800164F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20D11021A4D637800164F5B /* StarBadgeView */;
+			targetProxy = B20D11191A4D637800164F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20D110C1A4D637800164F5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20D110D1A4D637800164F5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20D11111A4D637800164F5B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20D11121A4D637800164F5B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20D11201A4D637800164F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20D11211A4D637800164F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20D11231A4D637800164F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B20D11241A4D637800164F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarBadgeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B20D11261A4D637800164F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarBadgeView.app/StarBadgeView";
+			};
+			name = Debug;
+		};
+		B20D11271A4D637800164F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarBadgeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarBadgeView.app/StarBadgeView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20D10FE1A4D637800164F5B /* Build configuration list for PBXProject "StarBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D11201A4D637800164F5B /* Debug */,
+				B20D11211A4D637800164F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D11221A4D637800164F5B /* Build configuration list for PBXNativeTarget "StarBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D11231A4D637800164F5B /* Debug */,
+				B20D11241A4D637800164F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B20D11251A4D637800164F5B /* Build configuration list for PBXNativeTarget "StarBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D11261A4D637800164F5B /* Debug */,
+				B20D11271A4D637800164F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20D10FB1A4D637800164F5B /* Project object */;
+}
